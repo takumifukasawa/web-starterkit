@@ -9,7 +9,8 @@ npm-scriptsを使ったフロントエンド開発環境
 ## 環境
 
 * $ yarn start (or $ npm start)
-  * browser-sync, pug, postcss, watchifyが走ります。
+  * browser-sync, pug, postcss, watchifyが走ります
+  * http://localhost:3000/ が自動で立ち上がります
 
 ## ファイル構成
 
