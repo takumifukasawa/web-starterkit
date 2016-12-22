@@ -9,7 +9,7 @@
   "author": "takumifukasawa <fukapon912@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "npm run watchify & npm run pug -- -w & npm run postcss -- -w",
+    "start": "npm run watchify & npm run pug -- -w & npm run postcss -- -w & npm run serve",
     "serve": "browser-sync start --server ./public/ --port 3000 --filed \"./public/index.html,./public/js/bundle.js,./public/css/style.css\"",
     "pug": "pug src/pug/index.pug -P -O ./config/pug.json -o ./public/",
     "postcss": "postcss --config config/postcss.json -o ./public/css/style.css ./src/css/style.css --log",
