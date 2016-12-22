@@ -2,11 +2,11 @@
 
 npm-scriptsを使ったフロントエンド開発環境
 
-## 環境
+## 環境構築
 
 * $ yarn (or $ npm install)
 
-## 環境
+## 開発手順
 
 * $ yarn start (or $ npm start)
   * browser-sync, pug, postcss, watchifyが走ります
