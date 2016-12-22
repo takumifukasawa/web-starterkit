@@ -1,10 +1,21 @@
 # web-starterkit
 
-use npm-scripts.
+npm-scriptsを使ったフロントエンド開発環境
 
-## usage
+## 環境
 
-1. $ yarn (or $ npm install)
-2. $ yarn start (or $ npm start)
-  -> run [ watchify, postcss, pug, browser-sync ]
+* $ yarn (or $ npm install)
+
+## 環境
+
+* $ yarn start (or $ npm start)
+  * browser-sync, pug, postcss, watchifyが走ります。
+
+## ファイル構成
+
+* `src/pug`, `src/css`, `src/js`
+  * 開発用ディレクトリで、ビルドするのに必要な各ソースが入っています。
+* `public`
+  * ビルド済みファイルが入っています。
+
 
